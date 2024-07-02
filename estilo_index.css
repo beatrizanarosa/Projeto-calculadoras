@@ -6,7 +6,6 @@ body {
     text-align: center;
 }
 section {
-    color: #2d36df;
     width: 60%;
     height: 550px;
     margin: 50px auto;
@@ -15,7 +14,9 @@ section {
     border-radius: 10px;
     box-shadow: 5px 5px 5px #0000002c;
     flex-wrap: wrap;
-
+}
+section h3, h1 {
+    color: #2d36df;
 }
 .container {
     display: inline-block;
@@ -25,7 +26,7 @@ section {
     flex-wrap: wrap;
     margin: 10px auto;
 }
-.dicas {
+.container2 {
     border-radius: 20px;
     display: inline-block;
     text-align: left;
@@ -56,3 +57,4 @@ section {
    box-shadow: 0px 0.5px 1.5px rgba(54, 122, 246, 0.25), inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2);
     
 }
+
