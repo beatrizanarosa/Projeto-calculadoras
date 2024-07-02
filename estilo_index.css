@@ -35,8 +35,10 @@ section {
     border: 2px #9C8BD9 solid;
     background-color: #c3c8e4;
     border-radius: 10px;
-    box-shadow: 5px 5px 5px #0000002c;
-    
+    box-shadow: 5px 5px 5px #0000002c;    
+}
+.container2 p,li {
+    color: #2d36df;
 }
 .button-group {
     display: block;
