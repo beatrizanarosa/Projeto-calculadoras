@@ -7,25 +7,27 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="estilo_index.css">
 
-    <script>
-        function atualizarDataHora() {
-            var dataHora = new Date();
-            var formato = 'dd/mm/yyyy HH:MM:SS';
-            var dataHoraFormatada = formato
-                .replace('dd', ('0' + dataHora.getDate()).slice(-2))
-                .replace('mm', ('0' + (dataHora.getMonth() + 1)).slice(-2))
-                .replace('yyyy', dataHora.getFullYear())
-                .replace('HH', ('0' + dataHora.getHours()).slice(-2))
-                .replace('MM', ('0' + dataHora.getMinutes()).slice(-2))
-                .replace('SS', ('0' + dataHora.getSeconds()).slice(-2));
-            document.getElementById('data-hora').textContent = dataHoraFormatada;
-        }
+<!--
+<script>
+    function atualizarDataHora() {
+        var dataHora = new Date();
+        var formato = 'dd/mm/yyyy HH:MM:SS';
+        var dataHoraFormatada = formato
+            .replace('dd', ('0' + dataHora.getDate()).slice(-2))
+            .replace('mm', ('0' + (dataHora.getMonth() + 1)).slice(-2))
+            .replace('yyyy', dataHora.getFullYear())
+            .replace('HH', ('0' + dataHora.getHours()).slice(-2))
+            .replace('MM', ('0' + dataHora.getMinutes()).slice(-2))
+            .replace('SS', ('0' + dataHora.getSeconds()).slice(-2));
+        document.getElementById('data-hora').textContent = dataHoraFormatada;
+    }
 
-        window.onload = function() {
-            atualizarDataHora();
-            setInterval(atualizarDataHora, 1000);
-        };
-    </script>
+    window.onload = function() {
+        atualizarDataHora();
+        setInterval(atualizarDataHora, 1000);
+    };
+</script>
+-->
 </head>
 <body>
     <div class="container">
@@ -51,8 +53,10 @@
             </div>
         </section>
     </div>
+<!--
     <footer>
         <p>Data e Hora: <span id="data-hora"></span></p>
     </footer>
+-->
 </body>
 </html>
