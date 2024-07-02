@@ -32,9 +32,6 @@ button {
     height:50px;
     border-radius: 10px;
     margin: 5px 4px 50px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
     background: linear-gradient(180deg, #5058F2 0%, #303AF2 100%);
     color: aliceblue;
 }
@@ -54,9 +51,6 @@ button:hover {
     height: 50px;
     border-radius: 10px;
     margin: 0px 4px 5px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    transition: all 0.3s;
 }
 #voltar:hover {
     background: #353ba4;
