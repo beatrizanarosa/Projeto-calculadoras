@@ -58,11 +58,6 @@ section {
 section h3, h1 {
     color: #2d36df;
 }
-@media screen and (min-width: 400px) {
-    .container, .container2,.box {
-      margin: 1em 2em;
-    }
-  }
   footer {
     color: #2027a2 ;
   }
