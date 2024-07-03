@@ -16,12 +16,12 @@ Sistema empresarial integrado a 3 páginas, cada uma contendo um tipo de calcula
 
 ## Funcionalidades Principais
 
-**Calcular o valor a ser recebido:**
-- Nesse processo utiliza-se o salário mensal bruto, a quantidade de horas extras em dias normais (úteis) e a quantidade de horas extras realizadas aos finais de semana.
-**Calcular o Aumento Salarial:**
-- Nesse processo utiliza-se o salario atual
-**Calcular o custo do Transporte coletivo:**
-- Nesse processo utiliza-se a quantidade de funcionários e a quantidade de dias úteis
+- **Calcular o valor a ser recebido:**
+Nesse processo utiliza-se o salário mensal bruto, a quantidade de horas extras em dias normais (úteis) e a quantidade de horas extras realizadas aos finais de semana.
+- **Calcular o Aumento Salarial:**
+Nesse processo utiliza-se o salario atual e a porcentagem definida previamente.
+- **Calcular o custo do Transporte coletivo:**
+Nesse processo utiliza-se a quantidade de funcionários e a quantidade de dias úteis.
 
 
 ## Licença
